@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gb-care-red: #f77600;
+  --gb-care-red-dark: #d46500;
+  --gb-ink: #1a1f2e;
+  --gb-muted: #5c6578;
+  --gb-border: #d8dde6;
+  --gb-bg: #f0f2f5;
+  --gb-surface: #f7f8fa;
+  --foreground-rgb: 26, 31, 46;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--gb-bg);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

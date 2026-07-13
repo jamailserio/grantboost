@@ -1,0 +1,11 @@
+# Developer Guidance Rules for grantboost
+
+## Tech Stack Standards
+- Framework: Next.js 14 (App Router)
+- Styling: Tailwind CSS
+- AI SDK: Vercel AI SDK (`streamText`)
+
+## Core Constraints & Safeguards
+1. **Never Hardcode Secrets:** Do not put API keys, passwords, or tokens directly into the code files. Always use environment variables (`process.env`).
+2. **UI Guidelines:** Ensure the interface matches a split-screen dashboard layout. The left side handles user inputs, and the right side renders the live streaming AI response.
+3. **Prompt Guardrails:** System prompts must always restrict the AI to professional NGO frameworks. Do not allow it to behave as a generic casual chatbot wrapper.
