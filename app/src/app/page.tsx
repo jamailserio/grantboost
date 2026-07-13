@@ -88,7 +88,7 @@ export default function Home() {
             </span>
           </div>
           <p className="text-xs font-medium uppercase tracking-wider text-[var(--gb-muted)]">
-            Field notes → donor-ready prose
+            Translating raw field insights into compelling impact stories.
           </p>
         </div>
       </header>
