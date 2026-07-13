@@ -98,11 +98,10 @@ export default function Home() {
         <section className="flex w-full flex-col border-[var(--gb-border)] bg-white lg:w-[42%] lg:border-r lg:px-8 lg:py-8">
           <div className="mb-6">
             <h2 className="font-display text-xl font-semibold text-[var(--gb-ink)]">
-              Inputs
+              Instructions
             </h2>
             <p className="mt-1 text-sm text-[var(--gb-muted)]">
-              Paste raw field notes and choose the donor framework for tone and
-              structure.
+            Type or paste your raw field observations below, then select a target donor framework to transform your notes into a structured, professionally toned draft.
             </p>
           </div>
 
