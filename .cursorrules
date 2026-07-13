@@ -1,0 +1,23 @@
+# GrantBoost — Cursor Rules
+
+You are assisting on **GrantBoost**, a Next.js 14 split-screen grant generator. Follow `spec.md` for product and architecture context.
+
+## Required stack
+
+- **Styling**: Use **Tailwind CSS** for all UI. Prefer utility classes; avoid ad-hoc CSS files unless necessary for globals or fonts.
+- **AI**: Use the **Vercel AI SDK** (`ai` and related packages) for chat/generation and streaming. Prefer SDK helpers (`streamText`, `useChat`, etc.) over raw provider HTTP clients when possible.
+- **Framework**: Stay on **Next.js 14** App Router patterns unless the user explicitly asks otherwise.
+
+## Secrets and credentials
+
+- **Never hardcode** API keys, tokens, passwords, connection strings, or other secrets in source code, comments, or client-side bundles.
+- Read secrets only from environment variables (e.g. `process.env.OPENAI_API_KEY`).
+- Put local secrets in `.env.local` (and document required vars in `.env.example` without real values).
+- Do not commit `.env`, `.env.local`, or files containing real credentials.
+- If a secret is missing, fail clearly and instruct the user to set the env var—do not invent placeholder keys that look real.
+
+## Implementation preferences
+
+- Match `spec.md`: split-screen grant UI, TypeScript, streaming AI into the preview.
+- Keep changes focused; do not add unrelated features or drive-by refactors.
+- Prefer clear, accessible forms and progressive streaming updates in the grant preview.
