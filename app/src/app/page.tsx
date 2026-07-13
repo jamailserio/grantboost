@@ -84,7 +84,7 @@ export default function Home() {
               GrantBoost
             </h1>
             <span className="hidden text-sm text-[var(--gb-muted)] sm:inline">
-              CARE USA · Donor Narrative Studio
+              CARE International · Donor Narrative Studio
             </span>
           </div>
           <p className="text-xs font-medium uppercase tracking-wider text-[var(--gb-muted)]">
